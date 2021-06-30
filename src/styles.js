@@ -29,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
 
 body{
   
-  background: url("https://media.istockphoto.com/videos/gray-abstract-minimal-motion-backgrounds-loopable-elements-4k-video-id1173905761?b=1&k=6&m=1173905761&s=640x640&h=LKKv2oNUg9i83Uww5T0OepACFjPt-J_7yqCIG7UBK0U=") no-repeat center center fixed; 
+  background: url("https://c0.wallpaperflare.com/preview/333/863/698/vegetables-table-tray-paprika.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,17 +42,14 @@ color:  ${(props) => props.theme.textColor};
 `;
 
 export const Center = styled.div`
-  text-align: center;
-
-  p {
-    font-weight: bold;
-  }
-
-  h1 {
-    font-size: 60px;
-    font-family: Brush Script MT;
-    margin-top: 50px;
-  }
+ background: rgba(0, 0, 0, 0.685);
+    color: white;
+    padding: 20px;
+    border-radius: 45px;
+    max-width: 700px;
+    margin: 30px;
+  align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `;
 
 export const Image = styled.img`
@@ -119,6 +116,8 @@ export const SearchBarStyled = styled.input`
   padding: 0.5rem;
   display: block;
   width: 40%;
+  height: 20%;
+  border-radius: 30px;
 `;
 
 export const StyledButton = styled.button`
@@ -149,7 +148,7 @@ export const StyledButton = styled.button`
 `;
 
 export const NavB = styled.nav`
-  background-color: ${(props) => props.theme.backGroundColor};
+
   padding: 5px;
   border-bottom: 0px solid ${(props) => props.theme.thirdColor};
   display: flex;
@@ -187,17 +186,17 @@ export const ButtonLink = styled(Link)`
 `;
 
 export const FlexStyle = styled.div`
-  margin-top: 20px;
 
-  display: flex;
+text-align:center;
+  display:flex;
   justify-content: center;
 `;
 
 export const FlexStyleVer = styled.div`
   margin-top: 20px;
-
-  display: flex;
-  flex-direction: column;
+text-align:center;
+  display: block;
+  flex-direction: row;
   align-items: center;
 `;
 export const StyledButton1 = styled.button`
@@ -233,14 +232,36 @@ export const mapStyles = {
 };
 
 export const Tit = styled.div`
-  color: white;
+  color: black;
   font-size: medium;
   padding-top: 10px;
   letter-spacing: 3px;
 `;
 export const Tit1 = styled.div`
-font-family: sans-serif;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size:70px;
-  padding-top: 50px;
+  padding-top: 30px;
   letter-spacing: 5px;
+  text-align: center;
 `;
+export const Center1 = styled.div`
+ background: rgba(0, 0, 0, 0.685);
+    color: white;
+
+    border-radius: 45px;
+    max-width: 700px;
+    
+  align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+`;
+export const Center2 = styled.div`
+background: rgba(0, 0, 0, 0.685);
+    color: white;
+    padding: 20px;
+    border-radius: 45px;
+    max-width: 1200px;
+    margin: 30px;
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+`

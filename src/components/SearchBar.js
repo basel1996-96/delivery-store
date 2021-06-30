@@ -8,12 +8,13 @@ const SearchBar = (props) => {
   return (
     <FlexStyle>
       <SearchBarStyled
-        placeholder="Search for a service name"
+        placeholder="Search for a Receipe name"
         onChange={(event) => props.setQuery(event.target.value)}
+        
       />
       <Link to="/new-product">
         
-        <button>Add New Service</button>
+        <button className="bb">Add New Receipe</button>
       </Link>
     </FlexStyle>
   );

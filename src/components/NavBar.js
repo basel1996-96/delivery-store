@@ -1,19 +1,20 @@
 // import { Link } from "react-router-dom";
-import { NavB, Logo,Tit } from "../styles";
+import { NavB, Logo,Tit,Center1 } from "../styles";
 
 const NavBar = (props) => {
   return (
     <NavB class="navbar navbar-expand-lg navbar-light bg-light">
-      <Logo exact to="/">
+      <Logo exact to="/"><Center1>
         <img
-          src="https://thumbs.dreamstime.com/b/design-can-be-used-as-logo-icon-as-complement-to-design-medicine-box-logo-icon-design-124672379.jpg"
+          src="https://uxrecipe.github.io/img/uxrecipe-logo.png"
           alt="logo"
         ></img>
+        </Center1>
       </Logo>
-      <div><Tit> ** Straight-up digital delivery will be the way the future works ** </Tit></div>
+     
       <Logo exact to="/products">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcYOOt7LqtvARICg9ujN8vTStCTUE2Wfx0I80yXEmoz-qSh1hFLukf3L295yHx4uEs2Mg&usqp=CAU"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZqFxmRjkzbz3pHU0apkWsNi9WPYaoPBoNQ&usqp=CAU"
           alt="logo"
         ></img>
       </Logo>

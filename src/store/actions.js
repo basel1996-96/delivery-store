@@ -5,6 +5,7 @@ export const DELETE_PRODUCT = "DELETE_PRODUCT";
 export const CREATE_PRODUCT = "CREATE_PRODUCT";
 export const UPDATE_PRODUCT = "UPDATE_PRODUCT";
 export const FETCH_PRODUCTS = "FETCH_PRODUCTS";
+// Action Types
 
 export const deleteProduct = (productId) => {
   return async (dispatch) => {
